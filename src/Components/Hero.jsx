@@ -7,7 +7,7 @@ const Hero = () => {
       <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-8">
         <div className="w-full lg:w-[55%]">
           <div className="flex flex-col items-center lg:items-start">
-            <h1 className="pb-6 text-4xl sm:text-2xl lg:text-6xl font-thin tracking-tight mt-10 text-white leading-tight">Ryan Jay Anthony Timagos</h1>
+            <h1 className="pb-6 text-2xl sm:text-2xl lg:text-6xl font-thin tracking-tight mt-10 text-white leading-tight">Ryan Jay Anthony Timagos</h1>
             <span className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-2xl lg:text-4xl tracking-tight text-transparent">BS Computer Science</span>
             <span className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-2xl lg:text-4xl tracking-tight text-transparent">Software Developer</span>
             <p className="my-2 py-6 font-light text-white text-justify max-w-3xl">{HERO_CONTENT}</p>
