@@ -4,3 +4,10 @@
 :root{
   font-family: "Inter", sans-serif;
 }
+
+.gradient-text {
+  background: linear-gradient(to right, #3b82f6, #8b5cf6); /* blue-500 to purple-500 */
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

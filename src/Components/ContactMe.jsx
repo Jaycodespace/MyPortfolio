@@ -8,7 +8,7 @@ const ContactMe = () => {
       
       <div className="max-w-7xl mx-auto relative">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
+      <h2 className="text-5xl font-bold text-center mb-12 py-6 leading-tight gradient-text">
             Get In Touch
           </h2>
           <p className="text-slate-400 mt-6 max-w-2xl mx-auto">

@@ -4,7 +4,7 @@ import { UNIVERSITY_PROJECTS } from "../assets/Constants";
 const UniversityProjects = () => {
   return (
     <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-12">
-      <h2 className="text-5xl font-bold text-center mb-12 py-6 leading-tight bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">
+    <h2 className="text-5xl font-bold text-center mb-12 py-6 leading-tight gradient-text">
         University Projects
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
