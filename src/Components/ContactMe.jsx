@@ -7,7 +7,6 @@ const ContactMe = () => {
     <section id="contact" className="py-20 px-4 md:px-8 relative">
       <div className="absolute inset-0 bg-gradient-to-b from-transparent to-slate-900/30 pointer-events-none" />
       
-      {/* Increased max width container */}
       <div className="max-w-7xl mx-auto relative">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
@@ -19,7 +18,6 @@ const ContactMe = () => {
         </div>
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {/* Address Card */}
           <div className="group bg-slate-900/50 backdrop-blur-sm p-8 rounded-xl min-w-[300px]">
             <div className="flex items-start gap-4">
               <div className="bg-blue-500/10 p-4 rounded-lg">
@@ -32,7 +30,6 @@ const ContactMe = () => {
             </div>
           </div>
 
-          {/* Phone Card */}
           <div className="group bg-slate-900/50 backdrop-blur-sm p-8 rounded-xl min-w-[300px]">
             <div className="flex items-start gap-4">
               <div className="bg-blue-500/10 p-4 rounded-lg">
@@ -45,7 +42,6 @@ const ContactMe = () => {
             </div>
           </div>
 
-          {/* Email Card */}
           <div className="group bg-slate-900/50 backdrop-blur-sm p-8 rounded-xl min-w-[300px]">
             <div className="flex items-start gap-4">
               <div className="bg-blue-500/10 p-4 rounded-lg">
